@@ -1,0 +1,37 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" fill="#08111F"/>
+  <text x="80" y="92" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="40" font-weight="700">Architecture at a glance</text>
+  <text x="80" y="128" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="22">A thin bridge between Telegram messages and a persistent local Gemini CLI process.</text>
+
+  <rect x="92" y="210" width="260" height="160" rx="28" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <text x="130" y="268" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Telegram User</text>
+  <text x="130" y="314" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="20">Sends a message</text>
+  <text x="130" y="344" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="20">through the bot chat</text>
+
+  <rect x="510" y="180" width="260" height="220" rx="28" fill="#0B3B5A" stroke="#38BDF8" stroke-width="2"/>
+  <text x="542" y="246" fill="#E0F2FE" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Python Bridge</text>
+  <text x="542" y="292" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="20">python-telegram-bot</text>
+  <text x="542" y="322" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="20">command handlers</text>
+  <text x="542" y="352" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="20">stdout queue</text>
+  <text x="542" y="382" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="20">session reset and status</text>
+
+  <rect x="928" y="210" width="260" height="160" rx="28" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+  <text x="980" y="268" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="30" font-weight="700">Gemini CLI</text>
+  <text x="970" y="314" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="20">Runs locally as a</text>
+  <text x="970" y="344" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="20">persistent subprocess</text>
+
+  <path d="M352 290H486" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M470 274L506 290L470 306" fill="#38BDF8"/>
+  <path d="M770 290H904" stroke="#38BDF8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M888 274L924 290L888 306" fill="#38BDF8"/>
+  <path d="M904 330H770" stroke="#2DD4BF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M786 314L750 330L786 346" fill="#2DD4BF"/>
+  <path d="M486 330H352" stroke="#2DD4BF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M368 314L332 330L368 346" fill="#2DD4BF"/>
+
+  <rect x="162" y="478" width="956" height="150" rx="28" fill="#111827" stroke="#1F2937" stroke-width="2"/>
+  <text x="204" y="534" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Flow</text>
+  <text x="204" y="578" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">1. Telegram receives a user message.</text>
+  <text x="204" y="610" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">2. The bridge forwards it to the local Gemini CLI process over stdin.</text>
+  <text x="204" y="642" fill="#CBD5E1" font-family="Segoe UI, Arial, sans-serif" font-size="22">3. CLI output is buffered, parsed heuristically, and sent back to Telegram.</text>
+</svg>

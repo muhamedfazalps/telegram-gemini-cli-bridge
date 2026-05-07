@@ -1,0 +1,30 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="28" fill="#0B1220"/>
+  <rect x="48" y="40" width="1184" height="640" rx="24" fill="#111827"/>
+  <rect x="48" y="40" width="1184" height="78" rx="24" fill="#0F172A"/>
+  <circle cx="94" cy="79" r="22" fill="#38BDF8"/>
+  <path d="M84 79L106 69L101 91L92 84L84 79Z" fill="white"/>
+  <text x="128" y="72" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">Gemini CLI Bridge</text>
+  <text x="128" y="98" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="16">Telegram bot talking to a local Gemini session</text>
+
+  <rect x="92" y="160" width="388" height="74" rx="22" fill="#1E293B"/>
+  <text x="118" y="191" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Can you explain transformers simply?</text>
+  <text x="118" y="217" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">You • sent from Telegram</text>
+
+  <rect x="548" y="262" width="612" height="176" rx="24" fill="#0F766E"/>
+  <text x="580" y="302" fill="#ECFEFF" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Sure. Think of a transformer like a reader with selective attention.</text>
+  <text x="580" y="340" fill="#CCFBF1" font-family="Segoe UI, Arial, sans-serif" font-size="20">Instead of reading one word at a time, it can look across the whole</text>
+  <text x="580" y="372" fill="#CCFBF1" font-family="Segoe UI, Arial, sans-serif" font-size="20">sentence and decide which earlier words matter most for understanding</text>
+  <text x="580" y="404" fill="#CCFBF1" font-family="Segoe UI, Arial, sans-serif" font-size="20">the current one. That "attention" is what makes it powerful.</text>
+  <text x="580" y="432" fill="#99F6E4" font-family="Segoe UI, Arial, sans-serif" font-size="14">Gemini CLI • returned through the bridge</text>
+
+  <rect x="92" y="484" width="286" height="74" rx="22" fill="#1E293B"/>
+  <text x="118" y="515" fill="#E2E8F0" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="600">Nice. Give me a quick analogy.</text>
+  <text x="118" y="541" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="14">You • follow-up message</text>
+
+  <rect x="548" y="572" width="462" height="64" rx="20" fill="#0F766E"/>
+  <text x="580" y="610" fill="#ECFEFF" font-family="Segoe UI, Arial, sans-serif" font-size="21">Like reading a sentence with a highlighter that instantly marks the important parts.</text>
+
+  <rect x="1036" y="574" width="124" height="58" rx="18" fill="#134E4A"/>
+  <text x="1064" y="610" fill="#99F6E4" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700">/reset</text>
+</svg>
