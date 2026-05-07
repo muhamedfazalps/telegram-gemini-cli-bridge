@@ -4,7 +4,7 @@ Talk to a local Gemini CLI session from Telegram.
 
 This project is a lightweight Python bridge for people who like the speed of a terminal-based AI workflow but want the convenience of sending prompts from their phone. You message a Telegram bot, the bridge forwards that message to a local `gemini` CLI process, and the reply comes back into the same chat.
 
-It started as a personal utility script, then got cleaned up into something other people can actually read, run, and extend.
+It is a small utility project built for real use: simple to follow, easy to modify, and practical enough to run on a personal machine or small server.
 
 ![Telegram chat preview](assets/telegram-chat-preview.svg)
 
@@ -29,7 +29,7 @@ That is the point of this repo.
 
 ## Screenshot
 
-The preview below is a simple product-style mockup of the chat flow. It is included so the repository reads clearly even without a live bot token.
+The preview below shows the intended chat flow and overall feel of the project.
 
 ![Architecture overview](assets/architecture-overview.svg)
 
@@ -54,13 +54,13 @@ The parsing logic is heuristic because CLI output can vary between Gemini CLI ve
 
 ```text
 .
-├── assets/
-│   ├── architecture-overview.svg
-│   └── telegram-chat-preview.svg
-├── .env.example
-├── .gitignore
-├── requirements.txt
-└── telegram_gemini_bridge.py
+|-- assets/
+|   |-- architecture-overview.svg
+|   `-- telegram-chat-preview.svg
+|-- .env.example
+|-- .gitignore
+|-- requirements.txt
+`-- telegram_gemini_bridge.py
 ```
 
 ## Requirements
